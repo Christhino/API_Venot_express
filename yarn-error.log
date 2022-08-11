@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add babel-cli
+
+PATH: 
+  C:\Users\KIRITO\AppData\Local\cloud-code\installer\google-cloud-sdk\bin;C:\MinGW\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\dotnet\;C:\Users\KIRITO\AppData\Local\flutter\bin;C:\Users\KIRITO\AppData\Local\flutter\bin;C:\Users\KIRITO\AppData\Local\tools;C:\Program Files (x86)\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\KIRITO\AppData\Roaming\npm;C:\Users\KIRITO\AppData\Roaming\npm\http-server.ps1;C:\Program Files\Java\jdk-17.0.1;C:\Program Files\apache-maven-3.8.5;C:\Users\KIRITO\AppData\Local\Microsoft\WindowsApps;C:\Users\KIRITO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KIRITO\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\TDM-GCC-64;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;C:\Users\KIRITO\.dotnet\tools;C:\Program Files\heroku\bin;C:\Program Files\heroku\bin\heroku;C:\Users\KIRITO\AppData\Local\heroku\bin;C:\Users\KIRITO\AppData\Local\flutter\bin;C:\Users\KIRITO\AppData\Local\tools;C:\Users\KIRITO\AppData\Roaming\npm;C:\Program Files (x86)\nodejs;C:\Users\KIRITO\AppData\Roaming\npm\http-server.ps1;C:\Program Files\Java\jdk-17.0.1;C:\Program Files\apache-maven-3.8.5\apache-maven\src\bin;
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  17.6.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: ENOENT: no such file or directory, scandir 'D:\Projet Mr Venot\REST API  express\node_modules\@ampproject'
+
+npm manifest: 
+  {
+    "name": "rest-api-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@babel/polyfill": "^7.12.1",
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.2",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.0",
+      "express": "^4.17.3",
+      "jsonwebtoken": "^8.5.1",
+      "make-runnable": "^1.3.10",
+      "moment": "^2.29.1",
+      "npm-run-all": "^4.1.5",
+      "pg": "^8.7.3"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-core": "^6.26.3",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-es2015": "^6.24.1",
+      "babel-register": "^6.26.0",
+      "babel-watch": "^7.7.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
